@@ -1,0 +1,169 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #e9ecef;
+  font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+
+.text-center{
+  text-align: center;
+}
+
+
+.l-container{
+  margin: 50px auto;
+  padding: 20px 0px;
+  background-color: #ffffff;
+  width: 30%;
+  height: auto;
+  min-width: 450px;
+}
+
+.c-logo {
+  margin: 0;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.c-logo a{
+  text-decoration: none;
+  color: #222222;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.c-container-message{
+  margin: 0px 25px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #666666;
+}
+.c-sign-in__form{
+  margin: 0px;
+  padding: 0px;
+}
+
+.c-sign-in__form .l-input{
+  margin: 20px auto;
+  padding: 5px;
+  width: 85%;
+  color: #666666;
+  border: 1px #666666 solid;
+  border-radius: 5px;
+}
+
+.c-sign-in__form .l-input input{
+  margin: 0px;
+  padding: 10px;
+  width: 85%;
+  border: 0px;
+}
+
+.validError{
+  margin: 0px 10px 30px 30px;
+  color: #dc3545;
+  display: none;
+}
+
+.c-sign-in__form .l-input input:focus{
+  outline: none;
+}
+
+.l-group-button{
+  margin: 0px 25px;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.l-remember-me label{
+  font-weight: bold;
+  color: #666666;
+}
+.c-submit__button{
+  margin: 0px;
+  padding: 10px;
+  width: 25%;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: lighter;
+  border: 1px #007bff solid;
+  border-radius: 5px;
+  background-color: #007bff;
+}
+
+.c-submit__button:hover{
+  cursor: pointer;
+  background-color: #3b96f8;
+}
+
+.c-sig-in__or{
+  margin: auto;
+  padding: 0px;
+  color: #666666;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.l-social-sign-in{
+  margin: 10px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.c-sign-in-social__button{
+  margin: 5px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.forgot-password{
+  width: auto;
+  margin: auto;
+}
+
+.button-facebook{
+  background-color: #007bff;
+  border: 1px #007bff solid;
+  
+}
+
+.button-facebook:hover{
+  background-color: #3b96f8;
+  cursor: pointer;;
+}
+
+.button-google-plus{
+  background-color: #dc3545;
+  border: 1px #dc3545 solid;
+}
+
+.button-google-plus:hover{
+  background-color: #df515f;
+  cursor: pointer;
+}
+
+.l-group-link{
+  margin: 10px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.l-main-container a{
+  margin: 5px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* index.html */
